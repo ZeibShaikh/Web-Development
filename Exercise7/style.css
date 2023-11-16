@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h5{
+    display: block;
+}
+.desktop
+{
+    display: flex;
+    justify-content:space-around;
+    margin: 2vh;
+    display:flex;
+}
+.img>img{
+    height: 9vh;
+}
+.mobile{
+    display: none;
+}
+.right ul{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    gap: 5vw;
+}
+.right ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 70%;
+    height: 100%;
+}
+.dwn{
+    display: grid;
+    margin-left: 1%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 3%;
+    justify-content: center;
+    align-items: center ;
+}
+.item{
+    /* display: flex; */
+    background-color:#f9f9f9;
+    height: 20vh;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* align-items: center ; */
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+small{
+    font-size: small;
+    text-align: center;
+}
+.lang{
+    display: block;
+    width: 100%;
+}
+.btn1{
+    border: none;
+    padding: 8px;
+    margin: 2%;
+    width:45%;
+    border-radius: 5px;
+    height: 2rem;
+    flex-direction: column-reverse;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    /* text-decoration: none; */
+}
+a{
+   text-decoration: none;
+   color: white; 
+}
+.green{
+    
+    background-color: #5cb85c;
+}
+.blue{
+    background-color: #00b6d1;
+}
+@media only screen and (max-width:800px){
+    /* body{
+        background-color: aqua;
+    } */
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .right ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .container{
+        /* border: 2px solid black; */
+        width: 90%;
+        height: 100%;
+    }
+    .dwn{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .item{
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        margin: 5%;
+        background-color:rgb(249, 248, 248);
+        justify-content: center; 
+         text-align: center;
+    
+    }
+    
+}

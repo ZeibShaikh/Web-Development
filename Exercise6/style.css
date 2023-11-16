@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.desktop
+{
+    display: flex;
+    justify-content:space-around;
+    margin: 2vh;
+    display:flex;
+}
+.img>img{
+    height: 9vh;
+}
+.mobile{
+    display: none;
+}
+.right ul{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    gap: 5vw;
+}
+.right ul li{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left:10%; */
+    list-style: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:800px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .right ul{
+        display: block;
+        width: 100%;
+        /* justify-content: center; */
+        text-align: center;
+        /* background-color: aqua; */
+    }
+}
