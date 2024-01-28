@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "web-development",
+  "description": "This repo contains all the imp concepts of Web Development.\r Exercise 6 contains navbar with hamburger for mobiles",
+  "version": "1.0.0",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
